@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: docker.io/library/backstage-local #nginx
-  pullPolicy: IfNotPresent
+  repository: docker.io/library/backstage-adm #nginx
+  pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
 
