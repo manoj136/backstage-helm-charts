@@ -82,7 +82,6 @@ tolerations: []
 affinity: {}
 
 backstage: 
-  replicas: 1  
   extraEnvVarsSecrets: ['postgress-secrets','backstage-secrets']    
   appConfig:
     app:      
