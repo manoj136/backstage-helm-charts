@@ -82,8 +82,6 @@ tolerations: []
 affinity: {}
 
 envFrom:
-  - secretRef:
-      name: postgress-secrets
   - secretRef: 
       name: backstage-secrets
 
