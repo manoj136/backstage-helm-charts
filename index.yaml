@@ -3,12 +3,12 @@ entries:
   backstage:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-18T14:02:32.2481121+05:30"
+    created: "2023-07-18T14:11:48.2345558+05:30"
     description: A Helm chart for Kubernetes
-    digest: 3b629797f09f498cd872b3fcc40dfa8710b61041d2638e9248f12323f26f7b29
+    digest: ba324b3e4755ea37df6c6d84d3d2fc63eb301eef504e74f65d4f0006304e9223
     name: backstage
     type: application
     urls:
     - https://manoj136.github.io/backstage-helm-charts/backstage-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-18T14:02:32.2464652+05:30"
+generated: "2023-07-18T14:11:48.2345558+05:30"
