@@ -80,3 +80,8 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+backstage:  
+  appConfig:    
+    organization:
+      name: Manoj   
