@@ -35,12 +35,11 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
             - name: Org_Name
-              value : {{ .Values.backstage.appConfig.organization.name }}          
+              value : {{ .Values.backstage.appConfig.organization.name }} 
+          {{- with .Values.envFrom }}
           envFrom:
-            - secretRef: 
-                name: backstage-secrets
-            - secretRef: 
-                name: postgress-secrets
+            {{- toYaml . | nindent 12 }}
+          {{- end }}
           ports:
             - name: http
               containerPort: {{ .Values.service.port }}
