@@ -84,6 +84,8 @@ affinity: {}
 envFrom:
   - secretRef: 
       name: backstage-secrets
+  - secretRef: 
+      name: postgress-secrets
 
 backstage:  
   appConfig:    
