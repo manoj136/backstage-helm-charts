@@ -84,4 +84,4 @@ affinity: {}
 backstage:  
   appConfig:    
     organization:
-      name: Manoj   
+      name: ${ORG_NAME}   
