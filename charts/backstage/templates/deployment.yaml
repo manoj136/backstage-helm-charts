@@ -32,10 +32,7 @@ spec:
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
-          imagePullPolicy: {{ .Values.image.pullPolicy }}
-          env:
-            - name: Org_Name
-              value : {{ .Values.backstage.appConfig.organization.name }} 
+          imagePullPolicy: {{ .Values.image.pullPolicy }}          
           {{- with .Values.envFrom }}
           envFrom:
             {{- toYaml . | nindent 12 }}

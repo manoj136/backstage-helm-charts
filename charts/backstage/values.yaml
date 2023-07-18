@@ -86,8 +86,3 @@ envFrom:
       name: backstage-secrets
   - secretRef: 
       name: postgress-secrets
-
-backstage:  
-  appConfig:    
-    organization:
-      name: ${ORG_NAME}   
