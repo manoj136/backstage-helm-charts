@@ -43,11 +43,11 @@ spec:
               protocol: TCP
           livenessProbe:
             httpGet:
-              path: {{ .Values.hosts.host }} #/
+              path: {{ .Values.ingress.hosts.host }} #/
               port: http
           readinessProbe:
             httpGet:
-              path: {{ .Values.hosts.host }} #/
+              path: {{ .Values.ingress.hosts.host }} #/
               port: http
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
