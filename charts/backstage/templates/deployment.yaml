@@ -43,12 +43,12 @@ spec:
               protocol: TCP
           livenessProbe:
             httpGet:
-              path: localhost #/
-              port: http
+              path: /
+              port: {{ .Values.service.port }}
           readinessProbe:
             httpGet:
-              path: localhost #/
-              port: http
+              path: /
+              port: {{ .Values.service.port }} #http
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
