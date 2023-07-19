@@ -5,12 +5,12 @@
 replicaCount: 1
 
 image:
-  repository: backstageadm.azurecr.io/backstage-adm #manojkumar1980/backstage-adm
+  repository: manojkumar1980/backstage-adm
   pullPolicy: Always #IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
 
-imagePullSecrets: [{ name: acr-image-pull-secret }]
+imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
 
