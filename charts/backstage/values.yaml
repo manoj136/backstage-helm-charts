@@ -5,12 +5,12 @@
 replicaCount: 1
 
 image:
-  repository: manojkumar1980/adm-backstage #nginx
+  repository: manojkumar1980/backstage-adm #nginx
   pullPolicy: Always #IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
 
-imagePullSecrets: [{ name: docker-hub-secret }]
+imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
 
