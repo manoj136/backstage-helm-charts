@@ -83,6 +83,6 @@ affinity: {}
 
 envFrom:
   - secretRef: 
-      name: backstage-secrets
+      name: omega-backstage-secrets
   - secretRef: 
-      name: postgress-secrets
+      name: omega-backstage-postgress-secrets
