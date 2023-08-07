@@ -3,12 +3,12 @@ entries:
   admgroup-infra-backstage:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-08-07T18:42:28.6091779+05:30"
+    created: "2023-08-07T19:00:16.8606962+05:30"
     description: A Helm chart for Kubernetes
-    digest: f67f1df9e2cb8ec3eefcf00a7801c88f8194b8c1147e846552ac0840288e01a7
+    digest: 4c289846963cbeadcc0cab29022d94d2b9b22089c6e32e3fda1b9a5fd0dc6d7c
     name: admgroup-infra-backstage
     type: application
     urls:
     - https://manoj136.github.io/backstage-helm-charts/admgroup-infra-backstage-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-07T18:42:28.6091779+05:30"
+generated: "2023-08-07T19:00:16.8606962+05:30"
