@@ -11,15 +11,4 @@ entries:
     urls:
     - https://manoj136.github.io/backstage-helm-charts/admgroup-infra-backstage-0.1.0.tgz
     version: 0.1.0
-  backstage:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2023-08-07T16:29:14.610384+05:30"
-    description: A Helm chart for Kubernetes
-    digest: 62d255fd6f77922dd3c09f252f7a4ae8f1aad9c10e73e213675d8c2b9d346375
-    name: backstage
-    type: application
-    urls:
-    - https://manoj136.github.io/backstage-helm-charts/backstage-0.1.0.tgz
-    version: 0.1.0
 generated: "2023-08-07T16:29:14.610384+05:30"
